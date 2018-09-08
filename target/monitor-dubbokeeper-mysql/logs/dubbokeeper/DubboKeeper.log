@@ -1,0 +1,9 @@
+2018-09-08 10:32:37.745 [main] DEBUG c.d.d.s.m.m.A.listApps - ==>  Preparing: select lower(name) as name,type from application 
+2018-09-08 10:32:37.795 [main] DEBUG c.d.d.s.m.m.A.listApps - ==> Parameters: 
+2018-09-08 10:32:37.845 [main] DEBUG c.d.d.s.m.m.A.listApps - <==      Total: 0
+2018-09-08 10:32:46.619 [DubboServerHandler-169.254.39.91:20884-thread-2] DEBUG c.d.d.s.m.m.A.listApps - ==>  Preparing: select lower(name) as name,type from application 
+2018-09-08 10:32:46.619 [DubboServerHandler-169.254.39.91:20884-thread-2] DEBUG c.d.d.s.m.m.A.listApps - ==> Parameters: 
+2018-09-08 10:32:46.620 [DubboServerHandler-169.254.39.91:20884-thread-2] DEBUG c.d.d.s.m.m.A.listApps - <==      Total: 0
+2018-09-08 10:32:48.186 [DubboServerHandler-169.254.39.91:20884-thread-3] DEBUG c.d.d.s.m.m.A.listApps - ==>  Preparing: select lower(name) as name,type from application 
+2018-09-08 10:32:48.186 [DubboServerHandler-169.254.39.91:20884-thread-3] DEBUG c.d.d.s.m.m.A.listApps - ==> Parameters: 
+2018-09-08 10:32:48.187 [DubboServerHandler-169.254.39.91:20884-thread-3] DEBUG c.d.d.s.m.m.A.listApps - <==      Total: 0
