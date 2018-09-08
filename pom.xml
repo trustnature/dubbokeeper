@@ -19,8 +19,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
 
         <dubbo.version>2.5.10</dubbo.version>
         <spring_version>4.3.14.RELEASE</spring_version>
@@ -288,7 +288,8 @@
                 <configuration>
                     <finalName>${final-name}</finalName>
                     <descriptors>
-                        <descriptor>${release.file}</descriptor>
+                        <descriptor>assembly/release-mysql.xml</descriptor>
+                        <descriptor>assembly/release-monitor.xml</descriptor>
                         <descriptor>assembly/release-ui.xml</descriptor>
                     </descriptors>
                 </configuration>
@@ -304,6 +305,13 @@
             <properties>
                 <release.file>assembly/release-mysql.xml</release.file>
                 <final-name>mysql</final-name>
+            </properties>
+        </profile>
+        <profile>
+            <id>monitor</id>
+            <properties>
+                <release.file>assembly/release-monitor.xml</release.file>
+                <final-name>monitor</final-name>
             </properties>
         </profile>
     </profiles>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <assembly>
-    <id>dubbokeeper-mysql</id>
+    <id>dubbokeeper-monitor</id>
     <baseDirectory>/</baseDirectory>
     <formats>
         <format>dir</format>
@@ -9,9 +9,9 @@
     <fileSets>
         <fileSet>
             <includes>
-                <include>bin/*mysql.*</include>
-                <include>bin/setting-mysql.*</include>
-                <include>conf/*mysql.properties</include>
+                <include>bin/*monitor.*</include>
+                <include>bin/setting-monitor.*</include>
+                <include>conf/*monitor.properties</include>
                 <include>conf/logback.xml</include>
             </includes>
         </fileSet>
@@ -19,7 +19,7 @@
     <moduleSets>
         <moduleSet>
             <includes>
-                <include>com.dubboclub.dk:mysql-storage</include>
+                <include>com.dubboclub.dk:dubbokeeper-monitor</include>
             </includes>
             <binaries>
                 <outputDirectory>lib/</outputDirectory>
