@@ -1,0 +1,1 @@
+2018-09-08 10:32:34.733 [main] INFO  c.a.d.common.logger.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
